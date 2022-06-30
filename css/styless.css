@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Genral Styles */
+
+:root {
+    --dark-one: #333;
+    --dark-two: #7a7a7a;
+    --main-color: #784cfb;
+    --light-one: #fff;
+    --light-two: #f9fafb;
+    --light-three: #f6f7fb;
+}
+
+body,
+button,
+input,
+textarea {
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    width: 100%;
+}
+/* End Genral Styles */
+
+
+/* Header */
+
+.logo {
+    width: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-collapse{
+    justify-content: right;
+}
+
+
+.btn.active {
+    background-color: var(--main-color);
+    color: var(--light-one);
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: .9rem 2.rem;
+    margin-left: 1rem;
+    padding: .9rem 1.2rem;
+    font-weight: 500;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.btn.active:hover {
+    background-color: #6b44e0;
+}
+
+.btn.login{
+border-radius: 1rem;
+font-size: 1rem;
+padding: .9rem 2.rem;
+padding: .9rem 1.2rem;
+font-weight: 500;
+line-height: 1;
+transition: 0.3s;
+}
+
+
+/* End Header */
+
+
+/* Main */
+
+.grids{
+    align-items: center;
+    justify-content: center;    
+}
+
+.column-1, .column-2 {
+    margin-top: 2.5rem;
+}
+
+.header-title{
+    font-size: 3.8rem;
+    color: var(--dark-one);
+    line-height: 0.9;
+}
+
+.text{
+    font-size: 1.25rem;
+    color: var(--dark-two);
+    line-height: 1.6;
+    margin: 2.15rem 0;
+}
+
+.btn.btn-comece {
+    margin-left: -0rem;
+}
+
+/* End Main */
+
+
+
+/* Main - login */
+
+main.main-login{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.logo-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.main-container{
+    margin-top: 2rem;
+}
+
+.col-login{
+    border-radius: 2rem;
+    margin-top: 3rem;
+    padding: 2rem;
+
+}
+
+.header-login{
+    font-size: 1.5rem;
+    color: var(--dark-one);
+    line-height: 0.9;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: .9rem 2.rem;
+    margin-left: 1rem;
+    padding: .9rem 1.2rem;
+}
+
+.p-mag{
+    margin-top: 1rem;
+    padding-right: 1rem;
+}
+
+.p-decoration{
+    text-decoration: none;
+}
+
+
+
+/* End Main - login */
+
+
+.img-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-padding{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.p-privacidade{
+    font-size: .8rem;
+    line-height: 1;
+}
